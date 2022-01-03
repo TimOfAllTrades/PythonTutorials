@@ -31,6 +31,21 @@ class Robot2:    #This is a class without attributes and no constructor
     def introduce_self(self):    #This is a method
         print("My name is " + self.name) #Self refers to the object it that is being run
 
+class Robot3:    #This is a class without attributes and no constructor
+    
+
+    def __init__(self, name, color, weight):    #This is a constructor
+        self.name = name    
+        self.color = color  
+        self.weight = weight
+        self.actualweight = weight + 10 #Adding additional parameters or variables.
+    
+    
+
+    def introduce_self(self):    #This is a method
+        print("My name is " + str(self.actualweight)) #Self refers to the object it that is being run
+
+
 #Creating an objection without a class constructor with predefined attributes
 r0 = Robot0()
 r0.introduce_self()
@@ -46,3 +61,6 @@ r1.introduce_self()
 r2 = Robot2("Jerry","blue",30)
 
 r2.introduce_self()
+
+r3 = Robot3("Jerry","blue",30)
+r3.introduce_self()
