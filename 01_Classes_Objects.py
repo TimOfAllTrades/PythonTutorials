@@ -21,7 +21,7 @@ class Robot1:    #This is a class without attributes and no constructor
     def introduce_self(self):    #This is a method
         print("My name is " + self.name) #Self refers to the object it that is being run
 
-class Robot2:    #This is a class without attributes and no constructor
+class Robot2:    #This is a class without attributes and a constructor
 
     def __init__(self, name, color, weight):    #This is a constructor
         self.name = name    
@@ -31,7 +31,7 @@ class Robot2:    #This is a class without attributes and no constructor
     def introduce_self(self):    #This is a method
         print("My name is " + self.name) #Self refers to the object it that is being run
 
-class Robot3:    #This is a class without attributes and no constructor
+class Robot3:    #This is a class without attributes and a constructor
     
 
     def __init__(self, name, color, weight):    #This is a constructor
